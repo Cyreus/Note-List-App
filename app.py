@@ -9,10 +9,10 @@ import base64
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://cyreus:2003ocak9A!@localhost/notes'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://your_name:your_password@localhost/notes'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-app.secret_key = 'AyXak4783nsk89jré!'
+app.secret_key = ''
 
 db.init_app(app)
 
